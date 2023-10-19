@@ -6,12 +6,12 @@ public class Classes {
 	 */
 	public class Pizza{
 		public String sabor;
-		public String preço;
+		public String preco;
 		
-	public Pizza(String sabor, String preço) {
+	public Pizza(String sabor, String preco) {
 		
 		this.sabor = sabor;
-		this.preço = preço;
+		this.preco = preco;
 	}
 
 	public String getSabor() {
@@ -22,12 +22,12 @@ public class Classes {
 		this.sabor = sabor;
 	}
 
-	public String getPreço() {
-		return preço;
+	public String getPreco() {
+		return preco;
 	}
 
-	public void setPreço(String preço) {
-		this.preço = preço;
+	public void setPreco(String preço) {
+		this.preco = preco;
 	}
 	
 		

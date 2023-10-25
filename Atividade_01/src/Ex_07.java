@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Ex_07 {
 
 	public static void main(String[] args) {
-		try (Scanner sc = new Scanner (System.in)) {
-			System.out.print("Digites quantos anos tem: ");
+		 Scanner sc = new Scanner (System.in) ;
+			System.out.print("Digite quantos anos tem: ");
 			double ano = sc.nextDouble() * 365;
-			System.out.print("Digites quantos meses tem: ");
+			System.out.print("Digite quantos meses tem: ");
 			double mes = sc.nextDouble() * 30;
-			System.out.print("Digites quantos dias tem: ");
+			System.out.print("Digite quantos dias tem: ");
 			double dia = sc.nextDouble();
 			
 			double total = ano + mes + dia;
@@ -17,5 +17,3 @@ public class Ex_07 {
 	
 	}
 
-	
-}
